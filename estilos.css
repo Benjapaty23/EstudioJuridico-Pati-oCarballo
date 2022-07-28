@@ -23,21 +23,31 @@ header{
     padding: 15px ;
 }
 main{
-    background-color: #4D4637;
+    background-color: #90805E;
     text-align: center;
     color: black;
 }
 main h1{
-    padding: 20px;
+    padding: 10px;
     font-size: 45px;
 }
 main h2{
-    padding: 15px;
+    padding: 10px;
 }
 section{
     padding-top: 15px;
-    background-color: #B3AA99;
+    background-color: #EEEAE1;
     color: black;
+    padding-bottom: 15px;
+}
+h1{
+    text-align: center;
+}
+.Data h2{
+    text-align: center;
+}
+.Data{
+    background-color: #90805E;
 }
 footer{
     background-color: #6D5A27;
