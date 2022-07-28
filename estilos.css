@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+header{
+    height: 100px;
+    background-color: #90805E;
+}
+.logo{
+    float: left;
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    padding: 15px ;
+}
+main{
+    background-color: #4D4637;
+    text-align: center;
+    color: black;
+}
+main h1{
+    padding: 20px;
+    font-size: 45px;
+}
+main h2{
+    padding: 15px;
+}
+section{
+    padding-top: 15px;
+    background-color: #B3AA99;
+    color: black;
+}
+footer{
+    background-color: #6D5A27;
+    min-height: 40px;
+    width: 100%;
+}
+footer i{
+    float: right;
+    font-size: 30px;
+    padding: 3px;
+    color: white;
+    padding-bottom: 40px;
+}
+.copy{
+    float: left;
+    padding: 10px;
+    color: white;
+}
+.copy i{
+    font-size: 15px;
+}

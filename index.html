@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./multimedia/Logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilos.css">
+    <title>Estudio Jimena</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="logo">Jimena Carballo</div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Inicio</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sec1">Jubilaciones</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sec2">Abogada</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sec3">Preguntas Frecuentes</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sec4">Contacto</a></li>
+            </ul>
+        </div>
+        </nav>
+    <main id="inicio" class="container-fluid">
+        <h1>Estudio Jurídico</h1>
+        <h2>Abogada Jimena Carballo</h2>
+        <h2>+15 años de trayectoria</h2>
+        <h2>Obtenga la jubilación que merece</h2>
+    </main>
+    <section id="sec1" class="container-fluid">
+        <div class="row">
+            <article class="imagen col-sm-12 col-md-12 col-lg-6">
+                <img src="multimedia/Viejitos.jpg" alt="img1" class="col-md-12 img-fluid">
+            </article>
+            <article class="col-md-6 col-sm-12 col-lg-6">
+                <h2>Articulo 3</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolore eligendi veritatis laboriosam ipsum qui laudantium, fuga ab aut sit, ullam ducimus! Praesentium temporibus eaque consectetur cupiditate nulla, vero earum.</p>
+            </article>
+        </div>
+    </section>
+    <section id="sec2" class="sec sec2">
+        <hr>
+        <h1>Abogada Jimena Carballo</h1>
+        <hr>
+        <dl>
+            <dt>Tratectoria</dt>
+            <dd>-Descripción de la trayectoria-</dd>
+            <dt>Sobre Mi</dt>
+            <dd>-Información de la abogada-</dd>
+            <dt>Mi visión</dt>
+            <dd>-Visión de la abogada-</dd>
+        </dl>
+    </section>
+    <section id="sec3" class="sec sec3">
+        <hr>
+        <h1>Preguntas Frecuentes</h1>
+        <hr>
+        <h2>Preguntas</h2>
+        <dl>
+            <dt>Pregunta 1</dt>
+            <dd>Respuesta a pregunta 1</dd>
+            <dt>Pregunta 2</dt>
+            <dd>Respuesta a pregunta 2</dd>
+            <dt>Pregunta 3</dt>
+            <dd>Respuesta a pregunta 3</dd>
+        </dl>
+        <h2>Deja tu pregunta:</h2>
+        <form action="" method="post" enctype="application/x-www-form-urlencoded">
+            <label for="pregunta">Deja tu pregunta aquí:</label><br>
+            <textarea name="pregunta" id="" cols="30" rows="10" placeholder="deja tu pregunta aquí"></textarea><br>
+            <input type="submit" value="Enviar pregunta">
+            <input type="reset" value="Borrar">
+        </form>
+    </section>
+    <section id="sec4" class="sec sec4">
+        <hr>
+        <h1>Turnos</h1>
+        <hr>
+        <h2>Pedí tu turno aqui:</h2>
+        <form>
+            <h3>Datos Personales</h3>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" placeholder="escribe tu apellido"><br>
+            <label for="nombre">Nombre:</label>
+            <input name="nombre" type="text" placeholder="escribre tu nombre"><br>
+            <label for="mail">Tu E-mail:</label>
+            <input type="text" name="mail" placeholder="escrible tu e-mail"><br>
+            Recibir mail de confirmación?<input type="checkbox" name="check"><br>
+            Tiene años de aporte?<select name="aportes">
+                <option>Si</option>
+                <option>No</option>
+            </select><br>
+            <label for="comentario">Comentarios extras:</label><br>
+            <textarea name="comentario" id="" cols="30" rows="10" placeholder="Deja tus comentarios..."></textarea><br>
+            <input type="submit" value="Pedir Turno">
+            <input type="reset" value="Restablecer">
+        </form>
+    </section>
+    <footer>
+        <p class="copy"><i class="fa-solid fa-copyright"></i>Todos los derechos reservados por copyright</p>
+        <i class="fa-brands fa-facebook-square"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter-square"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
