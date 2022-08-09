@@ -1,0 +1,20 @@
+main{
+    background-color: grey;
+    text-align: center;
+    h1{
+        color: black;
+    }
+}
+$redes1: (
+    red1: grey,
+    red2: rgb(92, 91, 91),
+    red3: rgb(49, 49, 49)
+);
+@each $red1 in $redes1 {
+    .btn--#{$red1} {
+        background-color: grey;
+        text-align: center;
+        color: black;
+        font-size: 20px;
+    }
+}
